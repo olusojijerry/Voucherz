@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voucherz.redeem", "voucherz.redeem\voucherz.redeem.csproj", "{E2C38ADE-70E2-4123-8174-2F51657E1B5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Logic", "..\vouchez.redeem\Business.Logic\Business.Logic.csproj", "{3B2DC921-8959-4DCC-BA0C-854B0D6CAF86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C38ADE-70E2-4123-8174-2F51657E1B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C38ADE-70E2-4123-8174-2F51657E1B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C38ADE-70E2-4123-8174-2F51657E1B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C38ADE-70E2-4123-8174-2F51657E1B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2DC921-8959-4DCC-BA0C-854B0D6CAF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2DC921-8959-4DCC-BA0C-854B0D6CAF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2DC921-8959-4DCC-BA0C-854B0D6CAF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2DC921-8959-4DCC-BA0C-854B0D6CAF86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE096591-6745-464C-B27B-E9808E7267FB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\bin\Debug\netcoreapp2.1\voucherz.redeem.deps.json
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\bin\Debug\netcoreapp2.1\voucherz.redeem.runtimeconfig.json
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\bin\Debug\netcoreapp2.1\voucherz.redeem.runtimeconfig.dev.json
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\bin\Debug\netcoreapp2.1\voucherz.redeem.dll
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\bin\Debug\netcoreapp2.1\voucherz.redeem.pdb
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.csprojAssemblyReference.cache
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.csproj.CoreCompileInputs.cache
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.RazorAssemblyInfo.cache
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.RazorAssemblyInfo.cs
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.AssemblyInfoInputs.cache
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.AssemblyInfo.cs
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.RazorTargetAssemblyInfo.cache
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.dll
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.pdb
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\bin\Debug\netcoreapp2.1\Business.Logic.dll
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\bin\Debug\netcoreapp2.1\Business.Logic.pdb
+C:\Users\DIADEM\source\repos\voucherz.redemption\voucherz.redeem\obj\Debug\netcoreapp2.1\voucherz.redeem.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\bin\Debug\netcoreapp2.1\Business.Logic.deps.json
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\bin\Debug\netcoreapp2.1\Business.Logic.dll
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\obj\Debug\netcoreapp2.1\Business.Logic.csprojAssemblyReference.cache
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\obj\Debug\netcoreapp2.1\Business.Logic.csproj.CoreCompileInputs.cache
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\obj\Debug\netcoreapp2.1\Business.Logic.AssemblyInfoInputs.cache
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\obj\Debug\netcoreapp2.1\Business.Logic.AssemblyInfo.cs
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\bin\Debug\netcoreapp2.1\Business.Logic.pdb
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\obj\Debug\netcoreapp2.1\Business.Logic.dll
+C:\Users\DIADEM\source\repos\vouchez.redeem\Business.Logic\obj\Debug\netcoreapp2.1\Business.Logic.pdb
