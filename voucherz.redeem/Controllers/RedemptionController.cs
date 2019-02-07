@@ -1,21 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Business.Logic.Domain;
 using Business.Logic.Services;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
-using voucher.redeems.Domain;
-using voucher.redeems.Models;
+using voucherz.redeem.Model;
 
-namespace voucher.redeems.Controllers
+namespace voucherz.redeem.Controllers
 {
-	[Produces("application/json")]
+	[Route("api/[controller]")]
 	[ApiController]
-	[EnableCors()]
-	[Route("voucherz/[controller]")]
 	public class RedemptionController : ControllerBase
 	{
 		private readonly IRedeemService _service;
@@ -23,7 +17,7 @@ namespace voucher.redeems.Controllers
 		{
 			_service = service;
 		}
-		
+		// GET api/values
 		[HttpGet("details/{email}")]
 		public async Task<IActionResult> FrontDetails(string email)
 		{
@@ -38,14 +32,12 @@ namespace voucher.redeems.Controllers
 			}
 			catch (Exception ex)
 			{
-				//new NotFoundObjectResult();
-				//new 
-
-				//return new JsonResult(new response("Failed", "Redemption", null));
 				return new BadRequestObjectResult(new { Status = "Bad Request", Error = ex.Message });
 			}
 
 		}
+
+		// GET api/redemption/getdiscountvouchers/{email}
 		[HttpGet("getdiscountvouchers/{email}")]
 		public async Task<IActionResult> GetRedeemedDiscountVouchers(string email)
 		{
@@ -64,7 +56,9 @@ namespace voucher.redeems.Controllers
 				return new BadRequestObjectResult(new { Status = "Bad Request", Error = ex.Message });
 			}
 		}
-		[HttpGet("redeemVoucher/{email}")]
+
+		// get
+		[HttpGet("redeemvaluevoucher/{email}")]
 		public async Task<IActionResult> GetRedeemedValueVouchers(string email)
 		{
 			try
@@ -82,6 +76,8 @@ namespace voucher.redeems.Controllers
 				return new BadRequestObjectResult(new { Status = "Bad Request", Error = ex.Message });
 			}
 		}
+
+		// get
 		[HttpGet("getgiftvoucher/{email}")]
 		public async Task<IActionResult> GetRedeemedGiftVouchers(string email)
 		{
@@ -100,6 +96,8 @@ namespace voucher.redeems.Controllers
 				return new BadRequestObjectResult(new { Status = "Bad Request", Error = ex.Message });
 			}
 		}
+
+		// get
 		[HttpGet("getallvouchers/{email}")]
 		public async Task<IActionResult> GetRedeemedVouchers(string email)
 		{
@@ -118,7 +116,7 @@ namespace voucher.redeems.Controllers
 				return new BadRequestObjectResult(new { Status = "Bad Request", Error = ex.Message });
 			}
 		}
-		[Route("voucherz/CreateCSV")]
+
 		[HttpPost]
 		public async Task<IActionResult> CreateCSV(string email)
 		{
@@ -133,10 +131,11 @@ namespace voucher.redeems.Controllers
 				return new BadRequestObjectResult(new { Status = "Bad Request", Error = ex.Message });
 			}
 		}
+
 		[HttpPost("redeems")]
 		public async Task<IActionResult> RedeemVoucher([FromBody]RedemptionDTO redemption)
 		{
-			
+
 			try
 			{
 				//check if the voucher exist in redemption database if yes then its a gift voucher
@@ -148,11 +147,12 @@ namespace voucher.redeems.Controllers
 
 					int result = await _service.NextRedeemVoucher(RedeemedDetail, redemption.Amount);
 
-					if(result > 0)
+					if (result > 0)
 						return new OkObjectResult(new
 						{
 							Status = string.Format("Code {0} redeemed successfully", redemption.VoucherCode),
-							Description = "Redemption", RedeemedDetail
+							Description = "Redemption",
+							RedeemedDetail
 						});
 					return new OkObjectResult(new
 					{
@@ -185,19 +185,8 @@ namespace voucher.redeems.Controllers
 						Description = "Redemption",
 						RedeemedDetails
 					});
-					//redemption.VoucherCode, redemption.Email, redemption.Amount);
 				}
-
-
-				//RedeemedDetails = await _service.RedeemVoucher(
-				//redemption.VoucherCode, redemption.Email, redemption.Amount);
-
-
-				//Redeem your voucher here
-
-
-
-
+				
 			}
 			catch (Exception ex)
 			{

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace voucher.redeems
+namespace voucherz.redeem
 {
 	public class Program
 	{
@@ -20,6 +20,6 @@ namespace voucher.redeems
 		public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
 			WebHost.CreateDefaultBuilder(args)
 				.UseStartup<Startup>()
-				.UseUrls("https://172.20.20.127:5001","http://172.20.20.127:5000");
+				.UseUrls("https://172.20.20.127:7001", "http://172.20.20.127:7000");
 	}
 }
